@@ -47,19 +47,19 @@ SELECT *
 FROM student 
 WHERE major = '英語'
 ORDER BY score DESC
-LIMIT 1
+LIMIT 1;
 
 SELECT *
 FROM student
-WHERE major = '英語' AND score < 60
+WHERE major = '英語' AND score < 60;
 
 SELECT *
 FROM student
-WHERE major = '英語' OR score > 60
+WHERE major = '英語' OR score > 60;
 
 SELECT *
 FROM student
-WHERE major = '英語' OR major = '生物' OR major = '歷史'
+WHERE major = '英語' OR major = '生物' OR major = '歷史';
 
 SELECT *
 FROM student
@@ -83,10 +83,10 @@ WHERE NOT name = '小黃';
 
 SELECT *
 FROM student
-WHERE name LIKE '小%'
+WHERE name LIKE '小%';
 
 SELECT *
 FROM student
-WHERE name LIKE '%黃%'
+WHERE name LIKE '%黃%';
 
 
