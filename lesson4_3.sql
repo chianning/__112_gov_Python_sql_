@@ -88,3 +88,5 @@ WHERE name LIKE '小%'
 SELECT *
 FROM student
 WHERE name LIKE '%黃%'
+
+
