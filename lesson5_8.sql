@@ -20,5 +20,8 @@ SELECT first_name || ' ' || last_name AS full_name,
 	 SUM(amount) AS 總和
 FROM payment LEFT JOIN customer USING (customer_id)
 GROUP BY full_name
+HAVING SUM(amount) >= 200
 ORDER BY 總和 DESC;
+
+
 
