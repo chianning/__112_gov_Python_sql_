@@ -21,3 +21,4 @@ SELECT first_name || ' ' || last_name AS full_name,
 FROM payment LEFT JOIN customer USING (customer_id)
 GROUP BY full_name
 ORDER BY 總和 DESC;
+
