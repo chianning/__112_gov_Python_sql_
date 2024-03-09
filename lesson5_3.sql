@@ -29,8 +29,8 @@ VALUES (1,'John Doe','(408)-111-1234','john.doe@bluebird.dev'),
        (2,'David ','(408)-222-1234','david.wright@dolphin.dev');
 
 DELETE FROM 客戶
-WHERE 客戶_id = 1
+WHERE 客戶_id = 1;
 
-SELECT * FROM 客戶
-SELECT * FROM 聯絡人
+SELECT * FROM 客戶;
+SELECT * FROM 聯絡人;
 
