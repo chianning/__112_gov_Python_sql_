@@ -36,3 +36,4 @@ FROM gate_count LEFT JOIN stations ON 站點編號=編號
 ORDER BY 進站人數 DESC
 LIMIT 10;
 
+
