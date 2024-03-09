@@ -28,4 +28,29 @@ SELECT * FROM basket_b;
 
 /*inner join*/
 SELECT a,fruit_a,b,fruit_b
-FROM basket_a INNER JOIN basket_b ON fruit_a = fruit_b
+FROM basket_a LEFT JOIN basket_b ON fruit_a = fruit_b
+
+/*inner join*/
+SELECT a,fruit_a,b,fruit_b
+FROM basket_a LEFT JOIN basket_b ON fruit_a = fruit_b
+WHERE b IS NULL
+
+/*right join*/
+SELECT a,fruit_a,b,fruit_b
+FROM basket_a RIGHT JOIN basket_b ON fruit_a = fruit_b
+WHERE a IS NULL
+
+/*full outer join*/
+SELECT a,fruit_a,b,fruit_b
+FROM basket_a FULL JOIN basket_b ON fruit_a = fruit_b
+
+	
+/*full outer join with where*/	
+SELECT a,fruit_a,b,fruit_b
+FROM basket_a FULL JOIN basket_b ON fruit_a = fruit_b	
+WHERE a IS NULL OR b IS NULL
+
+
+
+
+
