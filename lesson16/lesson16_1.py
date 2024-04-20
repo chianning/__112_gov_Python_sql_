@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Sessin_state基礎")
-st.write(st.session_state)
+#st.write(st.session_state)
 
 ##使用 input widget
 st.slider("數值",min_value=1,max_value=10,key='myslider')
@@ -31,6 +31,8 @@ with col2:
         st.write("您選擇的是'b' :heart:")
     elif option == 'c':
         st.write("您選擇的是'c' :rocket:")
+
+
 
 
 
