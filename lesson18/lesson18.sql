@@ -21,3 +21,6 @@ CREATE TABLE IF NOT EXISTS youbike(
    ON UPDATE CASCADE
    
 );
+
+DROP TABLE youbike;
+DROP TABLE 站點資訊;
