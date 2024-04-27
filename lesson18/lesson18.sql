@@ -39,7 +39,7 @@ FROM youbike
 /*先測試這筆,才可以了解下面*/
 SELECT MAX(日期),編號
 FROM youbike
-GROUP BY 編號:
+GROUP BY 編號;
 
 /*取出最新時間youbike資料*/
 SELECT 日期,站點資訊.站點名稱,行政區,站點地址,lat,lng,總車輛,可借,可還,可借,活動
